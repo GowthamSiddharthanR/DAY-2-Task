@@ -1,0 +1,15 @@
+1.Document Object
+
+*Represents the current HTML document.
+*Limited to the contents of the document.
+*Used to manipulate the structure andcontent of the document
+*Provides information about the URL of the document,such as document.URL, document.location.
+*Subject to same-origin policy restrictions, which limit access to documents from different origins.
+
+
+2.Window Object
+*Represents the global browser window.
+*Represents the entire browser window.
+*Used for controlling the browser window itself, including opening and closing windows
+*Can be used to attach global event listeners to respond to events like resizing the window or handling keyboard shortcuts.
+*Also subject to same-origin policy but has some exceptions for interacting with windows or frames from different origins.
